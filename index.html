@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>FT Website · Portfolio · Programming </title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+<link href='css/style.css' rel='stylesheet'>
+<link href='css/menu.css' rel='stylesheet'>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+    <nav>
+      <div id='menu' class="container">
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#album">Art</a></li>
+          <li><a href="#dev">Dev</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+  </nav>
+
+  <header>
+    
+  </header>
+
+  <main>
+
+    <div id="about" class="about">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5" style="padding-top: 60px;">
+          <div class="col-lg-8 col-md-8 mx-auto">
+
+            <img class="rounded mx-auto d-block" src="img/game-circle.png" alt="">
+            <div class="intro-text mt-2">
+                <span class="h4">Web/Game Developer - 3D Artist</span>
+                <hr class="star-light">
+            </div>
+        
+            <h1 class="fw-light">Presentation</h1>
+            <p class="lead">Artiste 3D reconvertie a la programmation, travail desormé avec des lignes de commandes pour réaliser des applications web basée sur le framework Java Spring et les frameworks front les plus populaires Angular, VueJs, ReactJs...</p>
+            <p class="lead">J'aime programmer des jeux sur <a href="https://unity.com/" target=”_blank” class="text-decoration-none">Unity</a> ou <a href="https://www.unrealengine.com/en-US" target=”_blank” class="text-decoration-none">Unreal</a> si le temps me le permet.</p>
+            <p class="lead">J'apprecie les librairies open source pour faire des jeux 2D/3D tel que <a href="https://www.babylonjs.com/" target=”_blank” class="text-decoration-none">Babylonjs</a>, <a href="https://love2d.org/" target=”_blank” class="text-decoration-none">Love2D</a>, <a href="https://www.raylib.com/" target=”_blank” class="text-decoration-none">Raylib</a>.</p>
+
+            <div class="intro-text mt-2">
+              <hr class="star-light">
+              <span class="h4">Contact</span>
+              <div class="row col-lg-6 col-md-8 mx-auto justify-content-center pt-2 pe-2">
+                <a href="mailto:thareaufabien@gmail.com" title="me contacter par courriel" class="col btn-social btn-outline">
+                  <svg width="48" class="section-icon active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#F5F5F5" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" /></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/fabien-thareau-4333903a/" title="Linkedin" target="_blank" class="col btn-social btn-outline">
+                  <svg width="48" class="section-icon active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#F5F5F5" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" /></svg>
+                </a>
+                <a href="https://github.com/fabMars17" title="Github" target="_blank" class="col btn-social btn-outline">
+                  <svg width="48" class="section-icon active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#F5F5F5" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" /></svg>
+                </a>
+                <a href="img/Resume-FT-Dev-2023.pdf" title="CV Resume" target="_blank" class="col btn-social btn-outline">
+                  <svg width="48" class="section-icon active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#F5F5F5" d="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z" /></svg>
+                </a>
+              </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="album" class="album py-5 bg-light">
+      <div class="container" style="padding-top: 40px;">
+        <h1 class="text-center fw-light pb-4">Art</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+                  <div class="sketchfab-embed-wrapper card-img-top" >
+                    <iframe class="embed-responsive-item" title="A 3D model" src="https://sketchfab.com/models/13a99f73703e4290af0fb5a8ad535f4f/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                  <!--<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                    <a href="https://sketchfab.com/3d-models/golem-into-the-mystic-forest-13a99f73703e4290af0fb5a8ad535f4f?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Golem into the mystic forest</a>
+                    by <a href="https://sketchfab.com/fabrobot?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">fabrobot</a>
+                    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                  </p>-->
+              <div class="card-body">
+                <p class="card-text">Scène 3d réalisée à partir d'element produit pour un prototype de jeu crée par mes soins sous Unity et finalement abandonné</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-info">Blender</span></h6>
+                    <h6><span class="badge bg-secondary">Unity</span></h6>
+                    <h6><span class="badge bg-secondary">Substance Painter</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2019</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/quebecor-montrealvr-01.jpg" data-toggle="lightbox" data-gallery="montrealvr-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/quebecor-montrealvr-thumbnail.jpg">
+              </a>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-02.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-03.jpg" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-04.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-05.jpg" data-title="Hidden item 4"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-06.jpg" data-title="Hidden item 5"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-07.jpg" data-title="Hidden item 6"></div>
+              <div data-toggle="lightbox" data-gallery="montrealvr-gallery" data-src="/tarolabs/img/portfolio/pro/quebecor-montrealvr-08.jpg" data-title="Hidden item 7"></div>
+
+              <div class="card-body">
+                <p class="card-text"><b>- Montréal -</b></p>
+                <p class="card-text">Séries de films à propos de la ville de Montréal pour borne 360/VR</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">Unreal Engine</span></h6>
+                    <h6><span class="badge bg-secondary">Unity</span></h6>
+                    <h6><span class="badge bg-secondary">V-ray</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2016-2018</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/theson-clipmusic-01.jpg" data-toggle="lightbox" data-gallery="theson-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/theson-clipmusic-thumbnail.jpg">
+              </a>
+              <div data-toggle="lightbox" data-gallery="theson-gallery" data-src="/tarolabs/img/portfolio/pro/theson-clipmusic-02.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="theson-gallery" data-src="/tarolabs/img/portfolio/pro/theson-clipmusic-03.jpg" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="theson-gallery" data-src="/tarolabs/img/portfolio/pro/theson-clipmusic-04.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="theson-gallery" data-remote="https://youtu.be/1Y2M5tro6jg" data-title="Hidden item 4" class="img-fluid"></div>
+              <div class="card-body">
+                <p class="card-text"><b>- The Son -</b></p>
+                <p class="card-text">Réalisation et animation des tentacules, particules pour le clip 'More Fire'</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">V-ray</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2013</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/inui_archi-03.jpg" data-toggle="lightbox" data-gallery="inui-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/inui-thumbnail.jpg">
+              </a>
+              <div data-toggle="lightbox" data-gallery="inui-gallery" data-src="/tarolabs/img/portfolio/pro/inui_archi-01.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="inui-gallery" data-src="/tarolabs/img/portfolio/pro/inui_archi-02.jpg" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="inui-gallery" data-src="/tarolabs/img/portfolio/pro/inui_archi-04.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="inui-gallery" data-src="/tarolabs/img/portfolio/pro/inui_archi-05.jpg" data-title="Hidden item 4"></div>
+            
+              <div class="card-body">
+                <p class="card-text"><b>- Inui -</b></p>
+                <p class="card-text">Realisation et creation de film de concours pour l'architecture au sein de l'agence <a href="http://inui.fr" target=”_blank” class="text-decoration-none">Inui</a></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">V-ray</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2012</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/bluespirit-lesptitespoules-00.jpg" data-toggle="lightbox" data-gallery="bs-ptitespoules-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/bluespirit-lesptitespoules-thumbnail.jpg" alt="">
+              </a>
+              <div data-toggle="lightbox" data-gallery="bs-ptitespoules-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-lesptitespoules-01.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="bs-ptitespoules-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-lesptitespoules-02.jpg" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="bs-ptitespoules-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-lesptitespoules-03.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="bs-ptitespoules-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-lesptitespoules-04.jpg" data-title="Hidden item 4"></div>
+              
+              <div class="card-body">
+                <p class="card-text"><b>- Blue Spirit -</b> Les P'tites Poules S1</p>
+                <p class="card-text">Eclairage, rendu et compositing pour la serie d'animation 'Les p'tites poules'</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">V-ray</span></h6>
+                    <h6><span class="badge bg-secondary">Fusion Studio</span></h6>
+                  </div>
+                  <small class="text-muted">2010</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/bluespirit-letableau-00.jpg" data-toggle="lightbox" data-gallery="bs-tableau-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/bluespirit-letableau-thumbnail.jpg">
+              </a>
+              <div data-toggle="lightbox" data-gallery="bs-tableau-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-letableau-01.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="bs-tableau-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-letableau-02.jpg" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="bs-tableau-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-letableau-03.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="bs-tableau-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-letableau-04.jpg" data-title="Hidden item 4"></div>
+              <div data-toggle="lightbox" data-gallery="bs-tableau-gallery" data-src="/tarolabs/img/portfolio/pro/bluespirit-letableau-05.jpg" data-title="Hidden item 5"></div>
+            
+              <div class="card-body">
+                <p class="card-text"><b>- Blue Spirit -</b> Le Tableau</p>
+                <p class="card-text">
+                  Eclairage, rendu et compositing pour long metrage</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">V-ray</span></h6>
+                    <h6><span class="badge bg-secondary">Fusion Studio</span></h6>
+                  </div>
+                  <small class="text-muted">2011</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="https://vimeo.com/4470589" data-remote="https://player.vimeo.com/video/4470589" data-toggle="lightbox">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/personal/oceansize-thumbnail.jpg">
+              </a>
+              <div class="card-body">
+                <p class="card-text"><b>- Oceansize -</b></p>
+                <p class="card-text">Film de fin d'étude réalisé à Supinfocom Arles (renommé <a href="https://www.ecole-mopa.fr" target=”_blank” class="text-decoration-none">MoPA</a> en 2015)</p>
+                <div class="d-flex justify-content-between align-items-center container-fluid">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2008</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/personal/01-lionreader.jpg" data-toggle="lightbox" data-gallery="personal">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/personal/00-lionreader_thumbnail.jpg" alt="">
+              </a>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/02-perso_2d_krita.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/04-Anim_dog2.gif" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/05-perso_2d.jpg" data-title="Hidden item 3"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/06-perso_ggun.jpg" data-title="Hidden item 4"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/07-perso_fuliculi.jpg" data-title="Hidden item 5"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/08-perso_btr.jpg" data-title="Hidden item 6"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/09-perso_roball.jpg" data-title="Hidden item 7"></div>
+              <div data-toggle="lightbox" data-gallery="personal" data-src="/tarolabs/img/portfolio/personal/10-perso_room.jpg" data-title="Hidden item 8"></div>
+            
+              <div class="card-body">
+                <p class="card-text"><b>- &#128522; -</b></p>
+                <p class="card-text">Personal works made during my journey to improve my skill in 2d/3d art field</p>
+                <p class="card-text"></p>Travaux personnels réalisés au cours de mon parcours pour améliorer mes compétences dans le domaine de l'art 2d/3d</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">Maya</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2009-2019</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/cortex_exemple02.jpg" data-toggle="lightbox" data-gallery="cortex">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/cortex-thumbnail.jpg" alt="">
+              </a>
+              <div data-toggle="lightbox" data-gallery="cortex" data-src="/tarolabs/img/portfolio/pro/cortex_exemple03.jpg" data-title="Hidden item 1"></div>
+              <div data-toggle="lightbox" data-gallery="cortex" data-src="/tarolabs/img/portfolio/pro/cortex_extrait1.webm" data-title="Hidden item 2"></div>
+              <div data-toggle="lightbox" data-gallery="cortex" data-src="/tarolabs/img/portfolio/pro/cortex_exemple04.jpg" data-title="Hidden item 3"></div>
+              
+              <div class="card-body">
+                <p class="card-text"><b>- Cortex Productions -</b></p>
+                <p class="card-text">
+                  Creation de film institutionnel pour le domaine medical au sein de la societe <a href="https://www.cortexproductions.com/" target=”_blank” class="text-decoration-none">Cortex</a></p></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">After Effect</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2009</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <a href="img/portfolio/pro/spacepatrol-DSF.jpg" data-toggle="lightbox" data-gallery="spacepatrol-gallery">
+                <img class="bd-placeholder-img card-img-top img-responsive" src="img/portfolio/pro/spacepatrol-thumbnail.jpg">
+              </a>
+              <div data-toggle="lightbox" data-gallery="spacepatrol-gallery" data-remote="https://player.vimeo.com/video/28571903" data-title="Hidden item 1"></div>
+              <div class="card-body">
+                <p class="card-text"><b>- Space Patrol -</b></p>
+                <p class="card-text">3D Modeling, Texturing d'element de decors et vehicules pour un spot humanitaire de l'ONG 
+                  Douleurs Sans Frontières, realisé par la Société de production vidéo Space Patrol à Paris</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                    <h6><span class="badge bg-success">Pro</span></h6>
+                    <h6><span class="badge bg-info">3ds Max</span></h6>
+                    <h6><span class="badge bg-secondary">Photoshop</span></h6>
+                  </div>
+                  <small class="text-muted">2008</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- /* card base */
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+      </div>
+    </div>
+
+    <div id="dev" class="dev py-5 bg-dark">
+      <section class="py-5 text-center container">
+        <h1 class=" text-center fw-light pb-4">Dev</h1>
+<!--
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+-->
+        <!-- card base coming from https://getbootstrap.com/docs/5.3/examples/blog/-->
+        <div class="row mb-2">
+
+          <div class="col-xl-6 col-lg-12">
+            <div class="card shadow-sm bg-dark g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+              <img class="object-fit-cover" src='img/dev/freeanimalpp.jpg'></img>
+              <div class="col p-3 d-flex flex-column position-static text-start text-white">
+                <h3 class="mb-0">FreeAnimal</h3>
+                <div class="text-muted">2020</div>
+                <p class="mb-1 card-text ">PC mini game, seek for your friends locked in city buildings, find the right combination and free them.</p>
+                <div class="btn-group btn-fixed-width">
+                  <a href="https://fabrobot.itch.io/free-the-animals?secret=qqWbj1HuCNi5Blp20e1MNOOak" class="btn btn-sm btn-outline-light" tabindex="-1" role="button" aria-disabled="true" target="_blank">View on itch.io</a>
+                </div>
+                <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                  <h6><span class="badge bg-success">Unity</span></h6>
+                  <h6><span class="badge bg-info">C#</span></h6>
+                  <h6><span class="badge bg-secondary">Blender</span></h6>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-12">
+            <div class="card shadow-sm bg-dark g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+              <img class="object-fit-cover" src='img/dev/boastrunpp.jpg'></img>
+              <div class="col p-3 d-flex flex-column position-static text-start text-white">
+                <h3 class="mb-0">Boast Run</h3>
+                <div class="text-muted">2016</div>
+                <p class="mb-1 card-text ">A endless runner mobile game playable, on Android only.</p>
+                <div class="btn-group btn-fixed-width">
+                  <a href="https://fabrobot.itch.io/boast-run?secret=G28r0HA5lo2IF7olm7FGPMn7qg" class="btn btn-sm btn-outline-light" tabindex="-1" role="button" aria-disabled="true" target="_blank">View on itch.io</a>
+                </div>
+                <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                  <h6><span class="badge bg-success">Unity</span></h6>
+                  <h6><span class="badge bg-info">C#</span></h6>
+                  <h6><span class="badge bg-secondary">Blender</span></h6>
+                </div>
+              </div> 
+            </div>
+          </div>
+          
+          <div class="col-xl-6 col-lg-12">
+            <div class="card shadow-sm bg-dark g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+              <img class="object-fit-cover" src='img/dev/isoshootpp.jpg'></img>
+              <div class="col p-3 d-flex flex-column position-static text-start text-white">
+                <h3 class="mb-0">Primitive Danmaku</h3>
+                <div class="text-muted">2014</div>
+                <p class="mb-1 card-text">A shoot'm up with only basic geometries, 1 level and 1 boss but a lot of bullets.</p>
+                <div class="btn-group btn-fixed-width">
+                  <a href="https://fabmars17.github.io/IsoShootWebGL/" class="btn btn-sm btn-outline-light" tabindex="-1" role="button" aria-disabled="true" target="_blank">Play !</a>
+                  <a href="https://github.com/fabMars17/IsoShootWebGL" class="btn btn-sm btn-outline-light" tabindex="-1" role="button" aria-disabled="true" target="_blank">Github</a>
+                </div>
+                <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                  <h6><span class="badge bg-success">Javascript</span></h6>
+                  <h6><span class="badge bg-info">BabylonJs</span></h6>
+                  <h6><span class="badge bg-secondary">3ds max</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-12">
+            <div class="card shadow-sm bg-dark g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+              <img class="object-fit-cover" width="200" height="auto" src='img/dev/katapp.jpg'></img>
+              <div class="col p-3 d-flex flex-column position-static text-start text-white">
+                <h3 class="mb-0">Kana Quiz</h3>
+                <div class="text-muted">2014</div>
+                <p class="mb-1">A web app to learn and revise your katakana and hiragana (Japanese).</p>
+                <div class="btn-group btn-fixed-width">
+                  <a href="https://fabmars17.github.io/kanaquiz/" class="btn btn-sm btn-outline-light" tabindex="-1" target="_blank" role="button" aria-disabled="true">Play !</a>
+                  <a href="https://github.com/fabMars17/kanaquiz" class="btn btn-sm btn-outline-light" tabindex="-1" target="_blank" role="button" aria-disabled="true">Github</a>
+                </div>
+                <div class="hstack gap-1 flex-wrap pt-2 pe-2">
+                  <h6><span class="badge bg-success">Html/css</span></h6>
+                  <h6><span class="badge bg-info">Javascript</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+    
+    <div id="blog" class="blog py-5">
+      <div class="py-5 text-center text-white container">
+        <h1 class="fw-light pb-4">BLOG</h1>
+        <h2 class="mb-5 text-black-50">COMING SOON...</h2>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      
+      <p class="mb-1">This website was created with &copy; <a href="https://getbootstrap.com/">Bootstrap</a> and based on <a href="https://getbootstrap.com/docs/5.2/examples/album/">Album example</a>, freely customized !</p>
+      <p class="mb-0">Lightbox plugin <a href="https://trvswgnr.github.io/bs5-lightbox/">bs5-lightbox</a> to implement a lightbox gallery</p>
+    </div>
+  </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.bs5.min.js"></script>
+    <script src='js/script.js'></script>
+      
+  </body>
+</html>
